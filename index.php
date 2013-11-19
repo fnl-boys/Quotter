@@ -11,52 +11,64 @@
 	</head>
 	<body>
 		<!--header starts-->
-		<div class="header">
-			<nav class="top-bar row">
-			  <ul class="title-area">
-				<!-- Title Area -->
-				<li class="name">
-				  <h1><a href="#">Top Bar Title </a></h1>
-				</li>
-				<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-			  </ul>
-
-			  <section class="top-bar-section">
-				<!-- Left Nav Section -->
-				<ul class="left">
-				  <li class="divider"></li>
-				  <li class="active"><a href="#">Main Item 1</a></li>
-				  <li class="divider"></li>
-				  <li><a href="#">Main Item 2</a></li>
-				  <li class="divider"></li>
-				</ul>
-
-				<!-- Right Nav Section -->
-				<ul class="right">
-				  <li class="divider hide-for-small"></li>
-				  <li class="has-dropdown"><a href="#">Main Item 4</a></li>
-				  <li class="divider"></li>
-				  <li class="has-form">
-					<form>
-					  <div class="row collapse">
-						<div class="small-8 columns">
-						  <input type="text">
+			<div class="header">
+				<div class="row">
+					<div class="large-6 columns">
+						<div class="row">
+							<div class="large-2 columns">
+								<div class="logo">
+									<img src="images/logo.png"/>
+								</div>
+							</div>
+							<div class="large-10 columns">
+								<input type="text" placeholder="large-4.columns">
+							</div>
 						</div>
-						<div class="small-4 columns">
-						  <a href="#" class="alert button">Search</a>
+					</div>
+					<div class="large-5 large-offset-1 columns">
+						<div class="row">
+							<!--<div class="large-1 columns">
+								<a href="#" class="button"><img src="images/button.png"/></a>
+							</div>
+							<div class="large-1 columns">
+								<a href="#" class="button"><img src="images/button.png"/></a>
+							</div>
+							<div class="large-4 columns">
+								<a href="#" class="button">Default</a>
+							</div>
+							<div class="large-4 large-offset-1 columns">
+								<a href="#" class="button">Cliffton</a>
+							</div>
+							<div class="large-1 columns">
+								<a href="#" class="button"><img src="images/button.png"/></a>
+							</div>-->
+							<div class="large-7 columns">
+								<div class="row collapse">
+									<div class="large-3 columns">
+										<a href="#" class="button"><img src="images/button.png"/></a>
+									</div>
+									<div class="large-3 columns">
+										<a href="#" class="button"><img src="images/button.png"/></a>
+									</div>
+									<div class="large-6 columns">
+										<a href="#" class="button">Home</a>
+									</div>
+								</div>
+							</div>
+							<div class="large-5 columns">
+								<div class="row collapse">
+									<div class="large-8 columns">
+										<a href="#" class="button">Cliffton</a>
+									</div>
+									<div class="large-4 columns">
+										<a href="#" class="button"><img src="images/button.png"/></a>
+									</div>
+								</div>
+							</div>
 						</div>
-					  </div>
-					</form>
-				  </li>
-				  <li class="divider show-for-small"></li>
-				  <li class="has-form">
-					<a class="button" href="#">Button!</a>
-				  </li>
-				</ul>
-			  </section>
-			</nav>	
-		</div>
+					</div>
+				</div>
+			</div>
 		<!--header ends-->
 		
 		<script src="js/jquery.js"></script>

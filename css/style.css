@@ -4,7 +4,7 @@
 }
 
 /*zurb headeer mani*/
-.top-bar, .top-bar-section ul, .right
+.top-bar, .top-bar-section ul, .top-bar-section ul li.active>a, .top-bar-section li a:not(.button), .top-bar-section .has-form
 {
 	background:none!important;
 }
