@@ -1,0 +1,11 @@
+.header
+{
+	background:#EFEFEF;
+}
+
+/*zurb headeer mani*/
+.top-bar, .top-bar-section ul, .right
+{
+	background:none!important;
+}
+/*zurb headeer mani*/
